@@ -5,12 +5,12 @@
 @import 'border-box';
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana;
 }
 
 .container {
     @include outer-container(350px);
-    border: 2px solid ##8CE8E1;
+    border: 2px solid #8CE8E1;
     padding: 2em;
     background-color: #962FE4;
     h3 {
