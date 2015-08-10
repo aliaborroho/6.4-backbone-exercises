@@ -1,6 +1,6 @@
 //for my entire form
 var Formview = Bacvkbone.View.extend({
-  template: AppTemplates.form,
+  template: AppTemplates.app,
 
   //call my target
   el: '#target',
@@ -36,6 +36,7 @@ var Formview = Bacvkbone.View.extend({
 
   //onSubmit, always call render at end
   render: function() {
+    debugger;
     var html = this.template(this.model.toJSON());
     this.$el.html(html);
     return this;
