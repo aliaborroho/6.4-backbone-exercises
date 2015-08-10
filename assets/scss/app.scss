@@ -5,12 +5,15 @@
 @import 'border-box';
 
 body {
-    font-family: Verdana;
+    font-family: Verdana, ;
+    background: url(images/alchemy.gif);
 }
-
+#target{
+    margin-top: 10%
+}
 .container {
     @include outer-container(350px);
-    border: 2px solid #8CE8E1;
+    border: 40px solid #8CE8E1;
     padding: 2em;
     background-color: #962FE4;
     h3 {

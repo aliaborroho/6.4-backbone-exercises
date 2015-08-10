@@ -1,5 +1,5 @@
 //for my entire form
-var Formview = Bacvkbone.View.extend({
+var Formview = Backbone.View.extend({
   template: AppTemplates.app,
 
   //call my target
