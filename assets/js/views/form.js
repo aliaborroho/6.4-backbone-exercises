@@ -36,7 +36,7 @@ var Formview = Backbone.View.extend({
 
   //onSubmit, always call render at end
   render: function() {
-    debugger;
+
     var html = this.template(this.model.toJSON());
     this.$el.html(html);
     return this;
